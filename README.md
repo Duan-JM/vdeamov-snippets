@@ -1,2 +1,1 @@
-# vdeamov-snippets
-Original from vim-snippet, however fix to my own habit
+This repo is used to config my own habit snippets based on `vim-snippets`
