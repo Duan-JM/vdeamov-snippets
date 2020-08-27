@@ -14,12 +14,16 @@ snippet from
 	from ${1:package} import ${0:module}
 # Module Docstring
 snippet docs
-	"""
-	File: ${1:`vim_snippets#Filename('$1.py', 'foo.py')`}
-	Author: `g:snips_author`
-	Email: `g:snips_email`
-	Github: `g:snips_github`
-	Description: ${0}
+	"""${1:A one line summary of `vim_snippets#Filename('$1.py', 'foo.py')`, terminated by a period.}
+
+	${2: Leave one blank line. Overall description of the module or program}
+
+		Author: `g:snips_author`
+		Email: `g:snips_email`
+		ChangeLog: TODO
+
+		Typical usage examples:
+		${3: Example 01}
 	"""
 
 # Unittest skip
