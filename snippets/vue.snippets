@@ -38,7 +38,7 @@ snippet vimport:c
 
 	export default{
 		components: {
-			appNew: New 
+			appNew: New
 		}
 	}
 
@@ -85,38 +85,38 @@ snippet vanim:js:el
 	  @leave-cancelled="leaveCancelled"
 	  :css="false">
 	 </transition>
-	 
+
 snippet vanim:js:method
 	methods: {
 	  beforeEnter(el) {
 		console.log('beforeEnter');
-	  }, 
+	  },
 	  enter(el, done) {
 		 console.log('enter');
 		 done();
 	  },
 	  afterEnter(el) {
 		console.log('afterEnter');
-	  }, 
+	  },
 	  enterCancelled(el, done) {
 		 console.log('enterCancelled');
 	  },
 	  beforeLeave(el) {
 		console.log('beforeLeave');
-	  }, 
+	  },
 	  leave(el, done) {
 		 console.log('leave');
 		 done();
 	  },
 	  afterLeave(el) {
 		console.log('afterLeave');
-	  }, 
+	  },
 	  leaveCancelled(el, done) {
 		 console.log('leaveCancelled');
 	  }
 	}
 
-snippet vcl 
+snippet vcl
 	@click=""
 
 snippet vdata
@@ -194,7 +194,7 @@ snippet vgetters
 		}
 	}
 
-snippet vimport 
+snippet vimport
 	import New from './components/New.vue';
 
 snippet vkeep
@@ -246,13 +246,10 @@ snippet vprops:d
 	  default: 100
 	},
 
-snippet vprops 
+snippet vprops
 	propName: {
 		type: Number
 	},
-=======
-=======
->>>>>>> 5dc42dbc6c4d9b5068ddde901b79c5e483c42114
 		${1:value}: state => {
 			return state.$1;
 		}
